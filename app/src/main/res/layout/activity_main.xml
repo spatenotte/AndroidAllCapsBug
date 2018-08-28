@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="40dp"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/buggyTextView"
+        style="@style/BuggyUppercase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Using android:textAllCaps exclusively"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/buggyBehavior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make lowercase"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buggyTextView" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/fixedTextView"
+        style="@style/FixedUppercase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Using textAllCaps exclusively"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buggyBehavior" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/fixedBehavior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make lowercase"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fixedTextView" />
+
+</android.support.constraint.ConstraintLayout>
