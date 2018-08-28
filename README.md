@@ -13,3 +13,6 @@ Expected behavior:
 
 Workaround:
 - If using `textAllCaps` instead of `android:textAllCaps` (omitting the `android:` prefix, the behavior is correct)
+
+
+## [Bug has been filed to Android Support Library Bug Tracker](https://issuetracker.google.com/issues/113303824)
