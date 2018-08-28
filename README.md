@@ -1,7 +1,7 @@
 # AndroidAllCapsBug
 Sample Project to demonstrate a bug with textAllCaps in AppCompatTextView.
 
-# [VIDEO REPRODUCING THE ISSUE](AllCapsBug.mov)
+# [VIDEO REPRODUCING THE ISSUE](AllCapsBug.mp4)
 
 Problem:
 
